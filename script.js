@@ -77,16 +77,31 @@
 // let number4 = 8998;
 // let result = palindrome(number4);
 
-// function palindrome(x) {
+// function palindrome(num) {
 //     let reversed4 = 0;
-//     for (; x > reversed4; x = Math.floor(x / 10)) {
-//         reversed4 = (reversed4 * 10) + (x % 10);
+//     while (num !== 0) 
+//     {
+//         reversed4 = (reversed4 * 10) + (num % 10);
+//         num = Math.floor(num / 10);
 //     }
-//     return x === reversed4;
+//     return reversed4;
+// }
+// if (number4 == result) {
+//     console.log(number4 + " is a palindrome.");
+// } else {
+//     console.log(number4 + " is not a palindrome.");
 // }
 
-// if (result) {
-//     console.log(number + " is a palindrome.");
-// } else {
-//     console.log(number + " is not a palindrome.");
+// function palindrome(num) {
+//     let reversed4 = 0;
+//     for (; number4 > reversed4; num = Math.floor(num / 10)) 
+//     {
+//         reversed4 = (reversed4 * 10) + (num % 10);
+//     }
+//     return number4 === reversed4;
 // }
+// if (result) {
+//     console.log(number4 + " is a palindrome.");
+// } else {
+//     console.log(number4 + " is not a palindrome.");
+// } 
